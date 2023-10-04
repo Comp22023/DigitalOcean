@@ -71,20 +71,20 @@
 //console.log(obj.count);
 
 
-let ab = parseInt(prompt("Введите сторону ab"))
-let bc = parseInt(prompt("Введите сторону bc"))
-let ac = parseInt(prompt("Введите сторону ac"))
+let a = parseInt(prompt("Введите сторону a"))
+let b = parseInt(prompt("Введите сторону b"))
+let c = parseInt(prompt("Введите сторону c"))
 
-function treugol(ab,bc,ac){
-    if (ab === bc && bc === ac){
+function treugol(a,b,c){
+    if (a == b && b == c && c == a){
         alert("Ваш треугольник равносторонний")
     }
-    else if (ab === bc || ab === ac && ac !== bc){
+    else if (a == b || b == c || c == a){
         alert("Ваш треугольник равнобедренный")
     }
     else{
         alert("Ваш треугольник не равнобедренный и не равносторонний")
     }
 }
-treugol(ab,bc,ac)
+treugol(a,b,c)
 
