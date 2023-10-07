@@ -96,6 +96,7 @@ function execplease(){
 
             j=j+i
             console.log(j)
+            if (j >= 20) break
         }
     }
     }
