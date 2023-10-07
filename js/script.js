@@ -95,8 +95,8 @@ function execplease(){
         if( i % 2 == 0){
 
             j=j+i
+            if(j>= 13 && j<27) continue
             console.log(j)
-            if (j >= 20) break
         }
     }
     }
