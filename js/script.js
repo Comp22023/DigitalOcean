@@ -92,12 +92,8 @@
 function execplease(){
     let j = 0
     for(i=1;i<=40;i++){
-        if( i % 2 == 0){
+    if(i>=13 && i<27) continue
+    console.log(i)
 
-            j=j+i
-            if(j>= 13 && j<27) continue
-            console.log(j)
-        }
-    }
     }
 execplease()
